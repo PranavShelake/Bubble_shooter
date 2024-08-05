@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Shooter</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="game">
+        <div id="start" class="start" onclick="start_game()">Start Game</div>
+        <div id="info" class="info" onclick="show_info()">How to play</div>
+        <div id="show_information" class="none">
+            <p><strong>Game Instructions:</strong></p>
+            <ul>
+                <li>Look at the number displayed in the hit block.</li>
+                <li>Your goal is to find and click the bubble with the same number as quickly as possible.</li>
+                <li>Each correct click earns you <strong>+10 points</strong>.</li>
+                <li>Each incorrect click results in a <strong>-10 points</strong> penalty.</li>
+                <li>You have a total of <strong>30 seconds</strong> to score as many points as possible.</li>
+            </ul>
+            <p>Good luck!</p>
+        </div>
+        <div id="pannel" class="none">
+            <div id="hit" class="box">Hit</div>
+            <div id="score" class="box">Score</div>
+            <div id="time" class="box">Timer</div>
+        </div>
+        <div id="BubbleContainer" class="none">
+
+        </div>
+        <div id="Time_Over" class="none">
+            Time Over !!
+        </div>
+        <div id="result" class="none">
+            Your Score is
+        </div>
+        <div id="again" class="none" onclick="start_game()">
+            Try Again
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

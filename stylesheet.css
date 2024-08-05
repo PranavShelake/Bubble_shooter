@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+
+}
+body{
+    background-color: darkcyan;
+    max-width: 1334px;
+    margin: 0 auto;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pannel{
+    margin: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:chocolate;
+    border-radius: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    font-size: 1.5rem;
+}
+
+.dynamic-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.BubbleContainer{
+    background-color: blanchedalmond;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.none{
+    display: none;
+}
+.bubble{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: brown;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.Time_Over{
+    height: 50px;
+    width: 50%;
+    font-weight: 600;
+    background-color :darkcyan;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+.result,.start,.info{
+    height: 50px;
+    width: 50%;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: crimson;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start{
+    margin-top: 10%;
+}
+.show_info {
+    background-color: #dbcd10;
+    border-radius: 10px;
+    height: auto;
+    font-size: 1.5rem;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.show_info p {
+    margin: 0 0 10px;
+}
+
+.show_info ul {
+    list-style-type: disc;
+    margin: 0 0 10px 20px;
+}
+
+.show_info li {
+    margin: 10px;
+}
